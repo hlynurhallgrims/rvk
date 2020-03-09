@@ -1,18 +1,23 @@
 #' ggplot2 þema Gagnaþjónustu Reykjavíkurborgar
 #'
-#' @param base_size
-#' @param strip_text_size
-#' @param strip_text_margin
-#' @param subtitle_size
-#' @param subtitle_margin
-#' @param plot_title_size
-#' @param plot_title_margin
-#' @param ...
+#' Þetta er fyrsta uppkast að sérstöku þema fyrir Gagnaþjónustu Reykjavíkurborgar.
+#' Sem stendur er þetta að bara umritað theme_roboto úr silgelib pakkanum hennar Juliu Silge.
+#' @param base_size grunnstærð leturs
+#' @param strip_text_size,strip_text_margin
+#' @param subtitle_size,subtitle_margin
+#' @param plot_title_size,plot_title_margin
+#' @param ... inntök sem færð eru áfram í \code{theme_minimal}
+#'
+#' @details Roboto Condensed og Roboto Bold letrin eru Google letur;
+#' hægt er að hala þeim niður á \url{https://fonts.google.com/specimen/Roboto+Condensed}
+#' og \url{https://fonts.google.com/specimen/Roboto}. Þessar leturgerðir verða
+#' að vera uppsettar á tölvunni þinni til að þú getir notast við þemað.
 #'
 #' @return
 #' @export
 #'
 #' @examples
+#' ggplot(mtcars, aes(x = drat, y = mpg ))
 theme_rvk <- function(base_size = 11,
                       strip_text_size = 12,
                       strip_text_margin = 5,
