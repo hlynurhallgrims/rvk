@@ -3,11 +3,11 @@
 \name{rvk_pal}
 \alias{rvk_pal}
 \title{rvk_pal
-Litapaletta Gagnaþjónustu Reykjavíkurborgar}
+Litapaletta Gagnaþjónustu Reykjavíkurborgar. Hún er ein og hefur 9 gildi.}
 \usage{
 rvk_pal()
 }
 \description{
 rvk_pal
-Litapaletta Gagnaþjónustu Reykjavíkurborgar
+Litapaletta Gagnaþjónustu Reykjavíkurborgar. Hún er ein og hefur 9 gildi.
 }

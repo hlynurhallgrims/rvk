@@ -11,7 +11,7 @@ scale_fill_rvk <- function(...) {
 }
 
 #' rvk_pal
-#' Litapaletta Gagnaþjónustu Reykjavíkurborgar
+#' Litapaletta Gagnaþjónustu Reykjavíkurborgar. Hún er ein og hefur 9 gildi.
 rvk_pal <- function() {
   values <- unname(rvk::rvk_palettur[["value"]])
   max_n <- length(values)
